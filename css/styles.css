@@ -29,8 +29,6 @@ img {
 display: block;
 }
 .header {
-padding-top: 24px;
-padding-bottom: 25px;
 border-bottom: 1px solid #ECECEC;
 }
 .header-container{
@@ -65,6 +63,7 @@ margin-right: 0;
 list-style: none;
 }
 .list .link {
+display: block;
 padding-top: 32px;
 padding-bottom: 32px;
 color: var(--secondary-text-cl);
@@ -93,6 +92,7 @@ margin-left: 40px;
 margin-left: 0; 
 }    
 .list .link-tel {
+display: block;
 padding-top: 32px;
 padding-bottom: 32px;
 color: var(--main-text-cl);
@@ -182,7 +182,6 @@ letter-spacing: 1.08px;
 .peculiarities {
 display:flex;
 flex-direction: row;
-justify-content: center; 
 }
 .peculiarities>.peculiarities-item {
 width: 270px;
@@ -216,7 +215,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .list-work>.work-item {
-flex-basis: calc(100%/3-30px);
+flex-basis: calc(100%/3 - 30px);
 margin-right: 30px;
 }
 .work-item:last-child {
